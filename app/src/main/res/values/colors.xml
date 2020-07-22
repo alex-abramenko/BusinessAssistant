@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="darkBackground">#1F1F1F</color>
+    <color name="lightBackground">#D5D5D5</color>
+    <color name="colorPrimary">#D5D5D5</color>
+    <color name="colorPrimaryDark">#000000</color>
+    <color name="colorAccent">#436E4B</color>
+    <color name="lightText">#D5D5D5</color>
+    <color name="lightHint">#828282</color>
+    <color name="darkText">#1F1F1F</color>
+    <color name="darkHint">#666666</color>
+    <color name="miniDarkBackground">#3d3d3d</color>
+</resources>

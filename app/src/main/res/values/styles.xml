@@ -1,0 +1,17 @@
+<resources>
+    <!--Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light">
+        <!-- Customize your theme here. -->
+        <!--        <item name="actionBarStyle">@style/MyActionBar</item>-->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+    </style>
+
+    <style name="PurpleButton" parent="@style/Widget.AppCompat.Button">
+        <item name="colorButtonNormal">#9698ff</item>
+        <item name="colorControlHighlight">#5054fd</item>
+        <item name="android:radius">50dp</item>
+    </style>
+</resources>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="ru.sibsutis.productm">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/logo_for_app"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/logo_for_app_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".ui.Basic.Reports.DetailReport.DetailReportActivity"></activity>
+        <activity android:name=".ui.Basic.Adding.AddingPurchpr.AddingPurchprActivity" />
+        <activity android:name=".ui.Basic.Adding.AddingCost.AddingCostActivity" />
+        <activity android:name=".ui.Basic.Adding.AddingProduct.AddingProductActivity" />
+        <activity android:name=".ui.Basic.Products.Basket.BasketActivity" />
+        <activity android:name=".ui.Basic.BasicActivity" />
+        <activity
+            android:name=".ui.Start.Login.LoginActivity"
+            android:label="Вход" />
+        <activity
+            android:name=".ui.Start.Reg.RegActivity"
+            android:label="Регистрация" />
+        <activity android:name=".ui.Start.StartActivity" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+    </application>
+
+</manifest>

@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/darkBackground"
+    android:orientation="vertical"
+    android:paddingLeft="10dp"
+    android:paddingTop="10dp"
+    android:paddingRight="10dp"
+    android:paddingBottom="10dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/style_for_item"
+        android:orientation="vertical"
+        android:paddingLeft="10dp"
+        android:paddingTop="10dp"
+        android:paddingEnd="10dp"
+        android:paddingBottom="10dp">
+
+        <TextView
+            android:id="@+id/tV_aPurchprItem_tittle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="sans-serif"
+            android:paddingLeft="5dp"
+            android:text="Чипсы Lays 75г"
+            android:textAllCaps="false"
+            android:textColor="@color/darkText"
+            android:textColorHint="@color/darkHint"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:paddingLeft="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif"
+                android:text="Артикул: "
+                android:textAllCaps="false"
+                android:textColor="@color/darkText"
+                android:textColorHint="@color/darkHint"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tV_aPurchprItem_detail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif"
+                android:text="ЧL75Г"
+                android:textAllCaps="false"
+                android:textColor="@color/darkText"
+                android:textColorHint="@color/darkHint"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+        </TableRow>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/eT_aPurchprItem_price"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/style_for_edittext"
+                android:ems="7"
+                android:fontFamily="sans-serif"
+                android:hint="Сумма (руб.)"
+                android:inputType="numberDecimal"
+                android:paddingLeft="10dp"
+                android:paddingTop="10dp"
+                android:paddingEnd="10dp"
+                android:paddingBottom="10dp"
+                android:textAlignment="center"
+                android:textAllCaps="false"
+                android:textColor="@color/darkText"
+                android:textColorHint="@color/darkHint"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/eT_aPurchprItem_quantity"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:background="@drawable/style_for_edittext"
+                android:ems="5"
+                android:fontFamily="sans-serif"
+                android:hint="Кол-во"
+                android:inputType="number"
+                android:paddingLeft="10dp"
+                android:paddingTop="10dp"
+                android:paddingEnd="10dp"
+                android:paddingBottom="10dp"
+                android:textAlignment="center"
+                android:textAllCaps="false"
+                android:textColor="@color/darkText"
+                android:textColorHint="@color/darkHint"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/btn_aPurchprItem_add"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_marginLeft="5dp"
+                android:background="@drawable/style_for_buttons_dark"
+                android:fontFamily="sans-serif"
+                android:text="Закупить"
+                android:textAlignment="center"
+                android:textAllCaps="false"
+                android:textColor="@color/lightText"
+                android:textColorHint="@color/darkHint"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

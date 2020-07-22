@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_products"
+        android:fontFamily="serif"
+        android:icon="@drawable/ic_shopping_basket_black_24dp"
+        android:textStyle="bold"
+        android:title="Товары" />
+    <item
+        android:id="@+id/navigation_adding"
+        android:icon="@android:drawable/ic_input_add"
+        android:title="Добавить"
+        android:textStyle="bold"
+        android:fontFamily="serif"/>
+
+    <item
+        android:id="@+id/navigation_reports"
+        android:fontFamily="serif"
+        android:icon="@drawable/ic_poll_black_24dp"
+        android:textStyle="bold"
+        android:title="Отчеты" />
+</menu>
